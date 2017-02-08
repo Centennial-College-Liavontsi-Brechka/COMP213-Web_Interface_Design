@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../project/styles/templateStyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../project/scripts/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="../project/scripts/navigation.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Merienda:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<!--Student Name: Liavontsi Brechka, Student Number: 300800345-->
+	<div id="wrapper">
+    	<div id="header">
+        	<a href="../project/home.html"><img src="../project/images/real-estate-banner.jpeg" id="banner"></a>
+            <div id="headerInfo">
+            	<ul>
+                	<li>Bob Edinson</li>
+                	<li>Email: <a href="mailto:realestatemail@fake.com">realestatemail@fake.com</a></li>
+                    <li>Mobile: +1 647 000 0000</li>
+                </ul>
+            </div>
+        </div>
+        <div id="navigation">
+        	<a href="../project/home.html"><img src="../project/images/navLogo.jpg" alt="logo" id="navLogo"></a>
+            <ul>
+            	<li><img src="../project/images/navMenu.png" id="navSpace"></li>
+                <li><a href="../project/home.html" class="navPadding">Home</a></li>
+                <li><a href="../project/switchboard.html" class="navPadding">Listings</a></li>
+				<li><a href="../project/contactUs.html" class="navPadding">Contact Us</a></li>
+                <li><a href="../project/siteMap.html" class="navPadding">Site Map and Credits</a></li>					
+			</ul>
+        </div>
+        <div id="mainPart">
+            <div id="content">
+            <!-- TemplateBeginEditable name="content" -->content
+			<!-- TemplateEndEditable -->
+            </div>
+            <div id="footer">
+                    <span id="footerNav"><a href="../project/home.html">Home</a>|<a href="../project/switchboard.html">Switchboard</a>|<a href="../project/contactUs.html">Contact Us</a>|<a href="../project/siteMap.html">Site Map</a></span>
+                    <h6 id="copyright">&copy;&nbsp;Copyright Student Name: Liavontsi Brechka - Student #: 300800345 - COMP213 - Winter 2015</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

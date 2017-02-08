@@ -1,0 +1,46 @@
+@charset "UTF-8";
+fieldset{
+	border-color: #C6E28A;
+	border-radius: 10px;
+	margin: 15px 0;
+	}
+	
+strong{
+	color: #698E00;
+	}	
+	
+audio{
+	width: 100%;
+	}
+
+legend{
+	font-family: 'Special Elite', cursive;
+	color: #698E00;
+	}
+
+input{
+	margin: 5px 10px;
+	}
+	
+#centennialBanner{
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border: 1px solid #C6E28A;
+	margin: 10px;
+	}
+
+.redStar{
+	color: red;
+	}
+	
+.centerAlign{
+	text-align: center;
+	}
+
+.title{
+	font-family: 'Bad Script', cursive;
+	font-weight: 900;
+	font-size: 23px;
+	text-align: center;
+	margin: 5px;
+	}

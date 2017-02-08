@@ -1,0 +1,203 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Project.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Contact Us</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<link href="styles/contactUs.css" rel="stylesheet" type="text/css">
+<!-- InstanceEndEditable -->
+<link href="styles/templateStyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="scripts/navigation.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Merienda:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<!--Student Name: Liavontsi Brechka, Student Number: 300800345-->
+	<div id="wrapper">
+    	<div id="header">
+        	<a href="home.html"><img src="images/real-estate-banner.jpeg" id="banner"></a>
+            <div id="headerInfo">
+            	<ul>
+                	<li>Bob Edinson</li>
+                	<li>Email: <a href="mailto:realestatemail@fake.com">realestatemail@fake.com</a></li>
+                    <li>Mobile: +1 647 000 0000</li>
+                </ul>
+            </div>
+        </div>
+        <div id="navigation">
+        	<a href="home.html"><img src="images/navLogo.jpg" alt="logo" id="navLogo"></a>
+            <ul>
+            	<li><img src="images/navMenu.png" id="navSpace"></li>
+                <li><a href="home.html" class="navPadding">Home</a></li>
+                <li><a href="switchboard.html" class="navPadding">Listings</a></li>
+				<li><a href="contactUs.html" class="navPadding">Contact Us</a></li>
+                <li><a href="siteMap.html" class="navPadding">Site Map and Credits</a></li>					
+			</ul>
+        </div>
+        <div id="mainPart">
+            <div id="content">
+            <!-- InstanceBeginEditable name="content" -->
+            	<div id="contactForm">
+                	<h2 class="title">Contact Form</h2>
+                	<hr>
+                    <div id="imagesLeft">
+                    	<img src="images/ContactUs/image1.jpg" class="image">
+                    	<img src="images/ContactUs/image2.jpg" class="image">
+                        <img src="images/ContactUs/image5.jpg" class="image">
+                    </div>
+                    <div id="imagesRight">
+                    	<img src="images/ContactUs/image3.jpg" class="image">
+                    	<img src="images/ContactUs/image4.jpg" class="image">
+                        <img src="images/ContactUs/image6.jpg" class="image">
+                    </div>
+                	<form name="frmContacts" id="frmContacts" action="mailto:realestatemail@fake.com" method="post" autocomplete="on">
+                    	<fieldset form="frmContacts">
+                        	<legend>Personal Information</legend>
+                            <table border="0" id="formTable">
+                              <tbody>
+                                <tr>
+                                  <td><label for="txtFirstName"><span class="redStar">*</span>First Name: </label></td>
+                                  <td><input type="text" name="txtFirstName" title="Enter your First Name" required></td>
+                                </tr>
+                                <tr>
+                                  <td><label for="txtLastName"><span class="redStar">*</span>Last Name: </label></td>
+                                  <td><input type="text" name="txtLastName" title="Enter your Last Name" required></td>
+                                </tr>
+                                <tr>
+                                  <td><label for="txtEmail"><span class="redStar">*</span>E-mail: </label></td>
+                                  <td><input type="email" name="txtEmail" title="Enter your Email" required></td>
+                                </tr>
+                                <tr>
+                                  <td><label for="txtAddress"><span class="redStar">*</span>Address: </label></td>
+                                  <td><input type="text" name="txtAddress" title="Enter your Address" required></td>
+                                </tr>
+                                <tr>
+                                  <td><label for="txtCity"><span class="redStar">*</span>City: </label></td>
+                                  <td><input type="text" name="txtCity" title="Enter your City" required></td>
+                                </tr>
+                                <tr>
+                                  <td><label for="txtPhoneNumber">Phone number: </label></td>
+                                  <td><input type="tel" name="txtPhoneNumber" title="Enter your Phone number"></td>
+                                </tr>
+                                <tr>
+                                  <td><label for="slctTime">Best time for contact: </label></td>
+                                  <td>
+                                  	<select required name="slctTime">
+                                    	<option>Morning</option>
+                                        <option>Afternoon</option>
+                                        <option>Evening</option>
+                                        <option>Email only</option>
+                                  	</select>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </fieldset>
+                        <fieldset form="frmContacts">
+                        	<legend>Property Information</legend>
+                            <table border="0" id="formTable">
+                              <tbody>
+                              	<tr>
+                                  <td><label for="slctPropertyType">Property Type: </label></td>
+                                  <td>
+                                  	<select required name="slctPropertyType">
+                                    	<option>Bungalow</option>
+                                        <option>Townhome</option>
+                                        <option>Condo</option>
+                                        <option>Storey and half</option>
+                                        <option>Two-Storey</option>
+                                        <option>Backsplit</option>
+                                        <option>Side Split</option>
+                                        <option>Commercial</option>
+                                        <option>Other</option>
+                                  	</select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><label for="txtAgeOfHome">Age of home: </label></td>
+                                  <td><input type="text" name="txtAgeOfHome" title="Enter Age Of Home"></td>
+                                </tr>
+                                <tr>
+                                  <td><label for="slctTimeFrameForSelling">Time Frame for Selling: </label></td>
+                                  <td>
+                                  	<select required name="slctTimeFrameForSelling">
+                                    	<option>Immediately</option>
+                                        <option>3-6 Months</option>
+                                        <option>6-12 Months</option>
+                                        <option>1-2 Years</option>
+                                        <option>No Hurry</option>
+                                  	</select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><label for="slctNumberOfBedrooms">Number of Bedrooms: </label></td>
+                                  <td>
+                                  	<select required name="slctNumberOfBedrooms">
+                                    	<option>1</option>
+                                       	<option>2</option>
+                                       	<option>3</option>
+                                       	<option>4</option>
+                                       	<option>5</option>
+                                       	<option>6</option>
+                                  	</select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><label for="slctNumberOfBathrooms">Number of Bathrooms: </label></td>
+                                  <td>
+                                  	<select required name="slctNumberOfBathrooms">
+                                    	<option>1</option>
+                                       	<option>2</option>
+                                       	<option>3</option>
+                                       	<option>4</option>
+                                       	<option>5</option>
+                                       	<option>6</option>
+                                  	</select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><label for="slctBasement">Basement: </label></td>
+                                  <td>
+                                  	<select required name="slctBasement">
+                                    	<option>Unfinished</option>
+                                       	<option>Finished</option>
+                                       	<option>No Basement</option>
+                                       	<option>Finished Walkout</option>
+                                       	<option>Basement Apartment</option>
+                                       	<option>Unfinished Walkout</option>
+                                  	</select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><label for="slctAppointment">Appointment to view interior? </label></td>
+                                  <td>
+                                  	<select required name="slctAppointment">
+                                    	<option>Yes</option>
+                                       	<option>No</option>
+                                  	</select>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </fieldset>
+                        <label for="txtrOther" style="vertical-align:top;">Questions/Comments: </label><br>
+                        <textarea id="txtrOther" name="txtrOther" form="frmContacts" cols="40" rows="7" placeholder="--Type your answer here--"></textarea><br>
+                        <input type="reset" form="frmContacts" value="Start Again">
+                        <input type="submit" form="frmContacts" value="Send Information">
+                    </form>
+                </div>
+			<!-- InstanceEndEditable -->
+            </div>
+            <div id="footer">
+                    <span id="footerNav"><a href="home.html">Home</a>|<a href="switchboard.html">Switchboard</a>|<a href="contactUs.html">Contact Us</a>|<a href="siteMap.html">Site Map</a></span>
+                    <h6 id="copyright">&copy;&nbsp;Copyright Student Name: Liavontsi Brechka - Student #: 300800345 - COMP213 - Winter 2015</h6>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- InstanceEnd --></html>

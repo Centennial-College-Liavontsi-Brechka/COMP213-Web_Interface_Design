@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@media only screen and (max-width: 1366px){
+	#image{ height: 350px;}
+	}
+@media only screen and (max-width: 800px){
+	#image{ height: 150px;}
+	}
+
+	
+#photos{
+	overflow:hidden;
+	padding: 15px;
+	}
+
+#photos img:hover{
+	box-shadow: 2px 2px 2px 2px #AEAEAE;
+	}
+
+#photos a{
+	text-decoration: none;
+	}
+	
+#photos ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	}
+
+#photos ul li{
+	display: inline;
+	}
+	
+#image{
+	position: absolute;
+	left: 32%;
+	display: none;
+	border-radius: 15px;
+	border: 1px dashed #0267BF;
+	}
+
+#photos a:hover #image{
+	display: block;
+	box-shadow: 2px 2px 2px 2px #AEAEAE;
+	}
+
+#mainInfo{
+	margin: 0 40% 3% 40%;
+	}
+
+#mainInfo h5{
+	color: #767676;
+	margin: 5px;
+	}
+
+#mainInfo h4{
+	margin: 5px;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 24px;
+	}
+
+table{
+	margin: auto;
+	background: #F9ECD5;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px #AEAEAE;
+	margin-top: 20px;
+	}
+
+table td{
+	padding: 5px;
+	padding: 10px;
+	width: 30%;
+	}
+
+table th{
+	border-bottom: 5px ridge black;
+	color: #0267BF;
+	}
+
+.photoThumb{
+	width: 15%;
+	height: auto;
+	border-radius: 10px;
+	}
+
+#description{
+	padding: 15px;
+	text-align: center;
+	}
+
+#description h3{
+	margin-top: 45px;
+	margin-bottom: 10px;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 28px;
+	}
+
+#description p{
+	background: #F9ECD5;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px #AEAEAE;
+	margin-top: 20px;
+	padding: 10px;
+	text-align: justify;
+	}
+
+.title{
+	font-family: 'Marck Script', cursive;
+	font-size: 36px;
+	text-align: center;
+	margin: 5px;
+	}

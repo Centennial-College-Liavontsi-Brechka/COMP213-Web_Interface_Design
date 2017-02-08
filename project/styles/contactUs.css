@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@media only screen and (max-width: 1920px){
+	#frmContacts{ margin: 3% 26%;}
+	#imagesLeft{ width:256px;}
+	#imagesRight{ width:256px;}
+	}
+@media only screen and (max-width: 1024px){
+	#imagesLeft{ width:216px;}
+	#imagesRight{ width:216px;}
+	}
+@media only screen and (max-width: 768px){
+	#imagesLeft{ display: none;}
+	#imagesRight{ display: none;}
+	#frmContacts{ margin: 0;}
+	}
+
+#contactForm{
+	padding: 15px;
+	text-align: center;
+	}
+
+#imagesLeft{
+	overflow: hidden;
+	float: left;
+	margin: 15px 0;
+	}
+
+#imagesRight{
+	overflow: hidden;
+	float: right;
+	margin: 15px 0;
+	}
+
+fieldset{
+	margin: 15px 0;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-color: #0267BF;
+	border-style: inset;
+	}
+
+#formTable{
+	margin: 0 auto;
+	width: 95%;
+	}
+
+#formTable td:nth-of-type(2){
+	width: 50%;
+	text-align: left
+	}
+#formTable td:nth-of-type(1){
+	text-align: right;
+	}
+
+.image{
+	border-radius: 10px;
+	margin: 15px 0;
+	width: inherit;
+	height: inherit;
+	
+	}
+
+.redStar{
+	color: red;
+	}
+
+.title{
+	font-family: 'Marck Script', cursive;
+	font-size: 36px;
+	text-align: center;
+	margin: 5px;
+	}

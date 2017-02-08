@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#astonLogo{
+	text-align: center;
+	margin: 30px;
+	}
+
+.intro{
+	font-family: 'Cantarell', sans-serif;
+	font-style: italic;
+	}
+	
+#details{
+	margin: 30px;
+	text-align: center;
+	}
+	
+caption{
+	margin: 15px 0;
+	}
+
+#pricesForModels th{
+	background-color: #9D9D9D;
+	color: white;
+	}
+
+#pricesForModels tbody tr:nth-of-type(even){
+	background-color: #C6E28A;
+	}
+
+#pricesForModels tbody tr:nth-of-type(odd){
+	background-color: #9DC900;
+	}
+	
+.titleFont{
+	font-family: 'Parisienne', cursive;
+	}
+	
+.headFont{
+	color: #698E00;
+	}

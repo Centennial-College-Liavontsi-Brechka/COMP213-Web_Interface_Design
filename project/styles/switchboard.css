@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@media only screen and (max-width: 1920px){
+	.listing{ width: 31.2%;}
+	}
+@media only screen and (max-width: 768px){
+	.listing{ width: 46.3%; }
+	}
+@media only screen and (max-width: 640px){
+	.listing{ width: 96%; }
+	}
+#listings{
+	padding: 15px;
+	overflow: hidden;
+	}
+	
+.listing{
+	background: #F0F0F0;
+	margin: 10px;
+	float: left;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	}
+	
+.listing img{
+	width: 100%;
+	height: auto;
+	}
+
+.listing h5{
+	margin: 0;
+	padding: 5px;
+	color: #000000;
+	}
+
+.listing h6{
+	margin: 0;
+	padding: 5px;
+	color: #767676;
+	}
+
+.listing a{
+	text-decoration: none;
+	}
+
+.listing:hover{
+	box-shadow: 2px 2px 2px 2px #AEAEAE;
+	}
+
+#listingsMap{
+	padding: 15px;
+	}
+
+.price{
+	color: #0267BF;
+	text-decoration:underline;
+	margin: 0;
+	padding: 5px;
+	}
+
+.title{
+	font-family: 'Marck Script', cursive;
+	font-size: 36px;
+	text-align: center;
+	margin: 5px;
+	}

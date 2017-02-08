@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shipping Form</title>
+<link href='http://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<style>
+	h2, h3{
+		font-family: 'Indie Flower', cursive;
+		}
+	body{
+		background: url(images/bodyBG.png) repeat;
+		}
+	#wrapper{
+		width: 970px;
+		margin: 30px auto;
+		padding: 20px;
+		background: url(images/wrapperBG.png) repeat;
+		}
+	#header{
+		text-align: center;
+		}
+	.bigButton{
+		width: 245px; 
+		}
+	.titles{
+		font-size: medium;
+		font-weight: bold;
+		color: #41505E;
+		font-family: 'Marck Script', cursive;
+		}
+	.labels{
+		font-size: small;
+		font-weight: bold;
+		color: #668096;
+		text-align: right;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		}
+	.roundCorners{
+		border-radius: 15px;
+		box-shadow: 5px 5px 5px 5px #ccc;
+		}
+	fieldset{
+		margin: 25px 0px;
+		}
+	hr{
+		color: #668096;
+		height: 3px;
+		}
+	form{
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+</style>
+</head>
+
+<body>
+	<div id="wrapper" class="roundCorners">
+        <div id="header">
+            <a href="http://www.teslamotors.com/en_CA" target="_blank"><img src="images/tesla-motors-logo.png" alt="logo" width="558" height="150"></a>
+            <h2>The future is here!</h2>
+            <h3>Order your Tesla car right now!</h3>
+            <hr>
+        </div>
+        <div id="content">
+            <h4>Product Registration Form</h4>
+            <hr>
+            <form action="mailto:regProd@comp213.com" id="registration" name="registration" method="post" autocomplete="on">
+            	<fieldset form="registration" class="roundCorners">
+                	<legend class="titles">Product Purchase Information</legend>
+                	<table border="0">
+                    <tbody valign="top">
+                      <tr>
+                        <td align="right"><label class="labels" for="optPruchaseType">Product was purchased:</label></td>
+                        <td>
+                            <div id="optPruchaseType"><input type="radio" name="optPruchaseType" value="Online">Online<br>
+                            <input type="radio" name="optPruchaseType" value="InStore">In Store<br>
+                            <input type="radio" name="optPruchaseType" value="Other">Other
+                            <label for="txtPruchaseType" class="labels">&nbsp;Specify: </label>
+                    		<input type="text" id="txtPruchaseType" name="txtPruchaseType" title="Specify Purchase Type"></div>
+                            <br>
+                            <br>
+                    	</td>
+                      </tr>
+                      <tr>
+                        <td align="right"><label for="txtProductName" class="labels">Product Name:</label></td>
+                        <td><input type="text" id="txtProductName" name="txtProductName" title="Enter Product Name"></td>
+                      </tr>
+                      <tr>
+                        <td align="right"><label for="txtProductSerial" class="labels">Product Serial #:</label></td>
+                        <td><input type="text" id="txtProductSerial" name="txtProductSerial" title="Enter Product Serial #"></td>
+                      </tr>
+                      <tr>
+                        <td align="right"><label for="dtPurchaseDate" class="labels">Purchase Date<br>(Month/Year):</label></td>
+                        <td valign="middle"><input type="month" id="dtPurchaseDate" name="dtPurchaseDate"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </fieldset>
+                <fieldset form="registration" class="roundCorners">
+                	<legend class="titles">Personal Information</legend>
+                	<table border="0">
+                    <tbody valign="top">
+                      <tr>
+                        <td align="right"><label for="txtFirstName" class="labels">First Name:</label></td>
+                        <td><input type="text" id="txtFirstName" name="txtFirstName" title="Enter First Name"></td>
+                      </tr>
+                      <tr>
+                        <td align="right"><label for="txtLastName" class="labels">Last Name:</label></td>
+                        <td><input type="text" id="txtLastName" name="txtLastName" title="Enter Last Name" size="35px"></td>
+                      </tr>
+                      <tr>
+                        <td align="right"><label for="txtStreet" class="labels">Street:</label></td>
+                        <td><input type="text" id="txtStreet" name="txtStreet" title="Enter Street" size="30px"></td>
+                      </tr>
+                      <tr>
+                        <td align="right"><label for="txtCity" class="labels">City:</label></td>
+                        <td><input type="text" id="txtCity" name="txtCity" title="Enter City" size="45px"></td>
+                      </tr>
+                      <tr>
+                        <td align="right"><label for="txtState" class="labels">State / Province:</label></td>
+                        <td><input type="text" id="txtState" name="txtState" title="Enter State / Province" size="15px"></td>
+                      </tr>
+                      <tr>
+                        <td align="right"><label for="txtZIP" class="labels">Zip / Postal Code:</label></td>
+                        <td><input type="text" id="txtZIP" name="txtZIP" title="Enter Zip / Postal Code" size="10px"></td>
+                      </tr>
+                      <tr>
+                        <td align="right"><label for="slctCountry" class="labels">Country:</label></td>
+                        <td>
+                        	<select form="registration" id="slctCountry" name="slctCountry">
+                            	<option>United States</option>
+                                <option>Canada</option>
+                            </select>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </fieldset>
+                <table border="0">
+                	<tr>
+                    	<td valign="top" align="right"><label for="txtrComments" class="labels">Comments (about the product):</label></td>
+                        <td><textarea id="txtrComments" name="txtrComments" form="registration" cols="50" rows="4" placeholder="--Type your text here--"></textarea></td>
+                    </tr>
+                    <tr>
+                    	<td><input class="bigButton" type="submit" form="registration" value="Place an oder"></td>
+                        <td><input class="bigButton" type="reset" form="registration" value="Start from scratch"></td>
+                    </tr>
+                </table>    
+            </form>
+        </div>
+        <div id="footer">
+        	<hr>
+      		<h6>&copy;&nbsp;Copyright Student Name: Liavontsi Brechka - Student #: 300800345 - COMP213 - Winter 2015</h6>
+        </div>
+    </div>
+</body>
+</html>

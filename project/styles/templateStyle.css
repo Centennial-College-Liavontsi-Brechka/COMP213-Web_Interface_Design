@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/*-----------------@Media--------------------------*/
+@media only screen and (max-width: 1920px){
+	#wrapper { width: 1600px;}
+	#navigation {max-width: 1600px; top: 385px; height: 75px; text-align: right;}
+	#navigation a{font-size: 20px;}
+	#header{height: 460px; overflow: hidden;}
+	#headerInfo{	 top: 10px; left: 10px;}
+	.navPadding{padding: 22.5px 20px;}
+	#copyright{ position: absolute; bottom: 10px; }
+	#footer{ text-align: right;}
+	}
+@media only screen and (max-width: 1366px){
+	#wrapper { width: 1200px;}
+	#navigation {max-width: 1200px; top: 270px; height: 75px; text-align: right;}
+	#navigation a{font-size: 20px;}
+	#banner{ width: 1200px; height: 345px;}
+	#header{height: 345px; overflow: hidden;}
+	.navPadding{padding: 22.5px 20px;}
+
+	}
+@media only screen and (max-width: 1024px){
+	#wrapper { width: 1000px;}
+	#navigation {max-width: 1000px; top: 213px; height: 75px; text-align: right;}
+	#navigation a{font-size: 20px;}
+	#banner{ width: 1000px; height: 288px;}
+	#header{height: 288px; overflow: hidden;}
+	.navPadding{padding: 22.5px 20px;}
+
+	}
+@media only screen and (max-width: 800px){
+	#wrapper { width: 750px;}
+	#navigation {max-width: 750px; top: 104px; height: 40px; text-align: right;}
+	#navigation a{font-size: 10px;}
+	#banner{ width: 750px; height: 216px;}
+	#navLogo{height: 40px;}
+	#navSpace{height: 40px;}
+	#header{height: 144px; overflow: hidden;}
+	.navPadding{padding: 15px 15px 10px 15px;}
+	#copyright{ position: static; }
+	#footer{ text-align: left; font-size: 10px;}
+	}
+@media only screen and (max-width: 640px){
+	#wrapper { width: 600px;}
+	#navigation {max-width: 600px; top: 58px; height: 40px; text-align: center;}
+	#navigation a{font-size: 10px;} 
+	#banner{ width: 600px; height: 173px; position: relative;}
+	#navLogo{display: none;}
+	#navSpace{height: 40px;}
+	#header{height: 98px; overflow: hidden;}
+	#headerInfo ul li{display: inline;}
+	.navPadding{padding: 15px 30px 10px 30px;}
+	#headerInfo{ font-size:14px; top: 17.5px; left: 37px;}
+	}
+/*-----------------Body----------------------------*/
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin: 0px;
+	background: url(../images/bodyBG.png) repeat;
+	}
+a{
+	color: #0267BF;
+	}
+
+hr{
+	height: 3px;
+	color: #0267BF;
+	background-color: #0267BF;
+	}
+/*-----------------Wrapper-------------------------*/
+#wrapper{
+	margin: 0px auto;
+	z-index: 1;
+	}
+/*-----------------Header--------------------------*/
+#header{
+	position: relative;
+	padding: 0;
+	}
+#headerInfo{
+	position: absolute;
+	border: 1px solid #0267BF;
+	background: url(../images/contentBG.png) repeat;
+	border-radius: 10px;
+	}
+#headerInfo ul{
+	font-family: 'Merienda', cursive;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	}
+#headerInfo ul li{
+	margin: 5px;
+	}
+/*-----------------Navigation----------------------*/
+#navigation{
+	position: fixed;
+	z-index: 1000;
+	border-bottom:1px dotted #999;
+	border-top:1px dotted #999;
+	background-color:#f0f0f0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	min-width: 512px;
+	}
+#navigation ul{
+	list-style-type: none;
+	display: block;
+	margin: 0px 10px;
+	padding: 0px;
+	}
+#navigation ul li{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	}
+#navigation ul li a:hover{
+	background-color: #3F89CA;
+	}
+#navigation img{
+	float: left;
+	}
+#navLogo{
+	margin: 0px 0 0px 20px;
+	position: absolute;
+	left: 0;
+	}
+#navigation a{
+	text-decoration: none;
+	font-family: 'Merienda', cursive;
+	}
+/*----------------MainPart-------------------------*/
+#mainPart{
+	background: url(../images/contentBG.png) repeat;
+	}
+/*-----------------Content-------------------------*/
+#content{
+	padding: 10px;
+	overflow: hidden;
+	}
+/*-----------------Footer--------------------------*/
+#footer{
+	position: relative;
+	background-color:#f0f0f0;
+	padding: 10px;
+	border-bottom:1px dotted #999;
+	border-top:1px dotted #999;
+	background-color:#f0f0f0;
+	opacity: 0.7;
+	clear: both;
+	}
+#footer h6{
+	padding: 0;
+	margin: 0;
+	}

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+#siteMap ul, #credits ul{
+	list-style-image: url(../images/SiteMap/listImage.png);
+	}
+
+#lstSiteMap, #lstCredits{
+	border-left: 10px groove #0267BF;
+	}
+
+#siteMap ul li, #credits ul li{
+	margin: 5px;
+	}
+
+#siteMap{
+	padding: 15px;
+	}
+		
+#credits{
+	padding: 15px;
+	}
+
+#specialNotes{
+	padding: 15px;
+	color: red;
+	border: 1px dashed red;
+	}
+
+.title{
+	font-family: 'Marck Script', cursive;
+	font-size: 36px;
+	text-align: center;
+	margin: 5px;
+	}

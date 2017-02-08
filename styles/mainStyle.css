@@ -1,0 +1,178 @@
+@charset "UTF-8";
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	min-width: 960px;
+	margin: 0px;
+	background-image: url(../images/background-main.png);
+	}
+	
+hr{
+	margin: 0px;
+	color: #C6E28A;
+	background-color: #C6E28A;
+	height: 4px;
+	border: none;
+	}
+
+a{
+	text-decoration: none;
+	color: #698E00;
+	font-weight: bold;
+	}
+
+a:active{
+	color: #8A3636;
+	}
+
+a:hover{
+	color: #B6B6B9;
+	}
+/*---------------------------------CONTACTS----------------------------------------*/
+#contacts{
+	position: fixed;
+	left: 0%;
+	top: 20%;
+	z-index: 2;
+	width: 40px;
+	height: 80px;
+	float: left;
+	}
+	
+#contacts ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#contacts ul li{
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	}
+/*---------------------------------WRAPPER-----------------------------------------*/
+#wrapper{
+	margin: 40px auto;
+	min-width: 960px;
+	max-width: 960px;
+	z-index: 1;
+	border-radius: 10px;
+	background-color: ivory;
+	box-shadow: 3px 3px 5px 3px #C0C0C0;
+	}
+/*---------------------------------HEADER------------------------------------------*/
+#header{
+	text-align: center;
+	border-top-left-radius:	10px;
+	border-top-right-radius: 10px;
+	}
+	
+#logo{
+	position: relative;
+	text-align: center;
+	}
+	
+.title{
+	}
+	
+.subTitle{
+	font-style: italic;
+	}
+/*---------------------------------NAVIGATION--------------------------------------*/
+#navigation{
+	position: absolute;
+	background-color: #C6E28A;
+	height: 30px;
+	width: 960px;
+	float: left;
+	}
+	
+#navMenu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+#navMenu li{
+	position: relative;
+	width: 33%;
+	display: inline;
+	padding: 5px 0;
+	margin: 0;
+	float: left;
+	text-align: center;
+	}
+	
+#assignments li{
+	position: relative;
+	left: -6%;
+	margin: 0 0 0 36%;
+	padding: 5px 0;
+	display: block;
+	float: none;
+	width: 40%;
+	text-align: center;
+	background-color: #E7F3CE;
+	}
+
+.assignments{
+	list-style-type: none;
+	display: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+	}
+
+.main-item:focus ~ .assignments, 
+.main-item:active ~ .assignments, 
+.assignments:hover { 
+	display: block; 
+	}
+/*---------------------------------MAIN PART---------------------------------------*/
+#mainBody{
+	padding: 30px;
+	text-align: justify;
+	}
+
+#main_photo{
+	float: right;
+	margin: 0 15px;
+	border: 2px dashed #c8e37d;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	}
+
+#hobbies{
+	list-style-image: url(../images/bulletlime.png);
+	}
+
+#hobbies li{
+	margin: 0 10px;
+	padding: 3px;
+	}
+/*---------------------------------FOOTER------------------------------------------*/
+#footer{
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	}
+
+#footer hr{
+	color: #C6E28A;
+	background-color: #C6E28A;
+	height: 4px;
+	border: none;
+	}
+/*---------------------------------CLASS-------------------------------------------*/
+
+.backToTop{
+	width: 60px;
+	height: 100%;
+	position: fixed;
+	right: 0%;
+	bottom: 0%;
+	text-align: center;
+	}
+
+.backToTop:hover{
+	background-image: url(../images/bg-BackToTop.png);
+	background-repeat: repeat;
+	}

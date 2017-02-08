@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@media only screen and (max-width: 1920px){
+	#description{ width: 68%; float: left;}
+	#feedbacks{ width: 25%; float: right;}
+	.hide{ display: none;}
+	}
+@media only screen and (max-width: 768px){
+	#description{ width: auto; float: none;}
+	#feedbacks{ width: auto; float: none;}
+	.hide{ display: block;}
+	}
+
+p{
+	text-indent: 25px;
+	text-align: justify;
+	}
+
+#agentPhoto{
+	float: left;
+	margin: 25px 25px 25px 0;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	box-shadow: 2px 2px 2px 2px #AEAEAE;
+	}
+
+#description{
+	position: relative;
+	margin: 15px;
+	}
+
+#description p{
+	line-height: 22px;
+	}	
+		
+#description p, #feedbacks p{
+	color: #515151;
+	margin: 30px 0;
+	}
+
+#description h3{
+	text-align: center;
+	margin: 35px 0;
+	}
+
+#feedbacks{
+	position: relative;
+	margin: 15px;
+	}
+	
+.feedbackBG{
+	background-color: #9ED1FD;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px 0;
+	box-shadow: 2px 2px 2px 2px #AEAEAE;
+	}
+	
+.feedbackBG h4{
+	margin: 7px;
+	}
+
+#profilePhoto{
+	float: left;
+	margin: 0 5px 5px 0;
+	}
+
+#video{
+	width: 100%;
+	height: 315px;
+	margin: 25px 0;
+	}
+
+.title{
+	font-family: 'Marck Script', cursive;
+	font-size: 36px;
+	text-align: center;
+	margin: 5px;
+	}
+

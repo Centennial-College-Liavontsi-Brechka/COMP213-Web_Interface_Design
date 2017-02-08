@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta content="text/html" charset="UTF-8" http-equiv="content-type">
+<title>Assignment 4</title>
+<meta content="Centennial College, COMP213, Liavontsi Brechka" name="keywoopts">
+<link href="styles/assign4.css" rel="stylesheet" type="text/css">
+<link href="../styles/mainStyle.css" rel="stylesheet" type="text/css">
+<link href="images/icon.ico" rel="icon">
+<link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!--Student Name: Liavontsi Brechka, Student Number: 300800345-->
+	<div id="contacts">
+    	<ul>
+        	<li><a href="mailto:leontibrechko@gmail.com" title="Write an e-mail"><img src="images/mail.png"></a></li>
+            <li><a href="https://www.facebook.com/leontibrechko" title="Go to the Facebook page"><img src="images/facebook.png"></a></li>
+        </ul>
+    </div>
+	<div id="wrapper">
+    <div class="wrapper-t">&nbsp;</div>
+		<div id="header">
+		  <div id="logo"><img src="images/logo.gif" width="567" height="105" alt="logo"/></div>
+            <hr>
+    		<h3>Assignment 4</h3>
+    		<h4>Student Name: Liavontsi Brechka | Student Number: 300800345</h4>
+            <hr>
+    	</div>
+        <div id="navigation">
+        	<ul id="navMenu">
+            	<li><a href="../index.html" tabindex="1">Home Page</a></li>
+                <li><a class="main-item" tabindex="2" href="javascript:void(0);">Assignments</a>
+                	<ul id="assignments" class="assignments">
+                		<li><a href="../assignment2/assignment2.html">Assignment 2</a></li>
+                        <li><a href="../assignment3/assignment3.html">Assignment 3</a></li>
+                        <li><a href="../practicalTest/300800345.html">Practical Test 1</a></li>
+                        <li><a href="assignment4.html">Assignment 4</a></li>
+                	</ul>
+                </li>
+            </ul>
+        </div>
+		<div id="mainBody">
+        	<div class="centerAlign"><a href="http://www.centennialcollege.ca/" target="_blank"><img src="images/centennial_banner.jpg" id="centennialBanner" alt="centennialBanner" width="648" height="150"></a></div>
+        	<h3 class="title">Centennial College</h3>
+            <h4 class="title">Continuing Education Course/Instructor Evaluation</h4>
+            <p style="text-decoration:underline; text-align:center; font-weight:bold; color:red;">Please read each statement carefully and consider each one individually.</p>
+            <audio src="sounds/bgSound.mp3" controls autoplay loop>
+            	Your browser doesn`t support audio tag!
+            </audio>
+            <form action="mailto:leontibrechko@gmail.com" id="evaluation" name="evaluation" method="post" autocomplete="on">
+            	<fieldset form="evaluation">
+                	<legend>Personal Information</legend>
+                    <label for="txtCourseName"><span class="redStar">*</span>Course Name: </label>
+                    <input type="text"  id="txtCourseName" name="txtCourseName" title="Enter a course name" tabindex="2" required size="45px" maxlength="45">
+                    <label for="txtCourseCode">Course Code: </label>
+                    <input type="text"  id="txtCourseCode" name="txtCourseCode" tabindex="4" title="Enter a course code" maxlength="8" pattern="[A-Za-z]{4}-[0-9]{3}" placeholder="COMP-213"><br>
+                    <label><span class="redStar">*</span>Semester: </label>
+                    <input type="radio" id="optFallSem" name="optSemester" tabindex="6" value="Fall" required>Fall
+                    <input type="radio" id="optWinterSem" name="optSemester" tabindex="8" value="Winter">Winter
+                    <input type="radio" id="optSummerSem" name="optSemester" tabindex="10" value="Summer"><span style="margin-right:92px;">Summer</span>
+                    <label for="txtYear"><span class="redStar">*</span>Year: </label>
+                    <input type="text" id="txtYear" name="txtYear" tabindex="12" maxlength="4" pattern="[0-9]{4}" title="Enter a year" placeholder="YYYY" required><br>
+                    <label for="txtInstr"><span class="redStar">*</span>Instructor: </label>
+                    <input type="text" id="txtInstr" name="txtInstr" tabindex="14" size="45px" maxlength="45" title="Enter your instructor name" required>
+                </fieldset>
+                <fieldset form="evaluation">
+                	<legend>Instructor</legend>
+                    <p>How would you rate the instrucotr`s: </p>
+                    <ol>
+                    	<li>
+                        	<label><span class="redStar">*</span><strong><em>knowledge</em></strong> of subject?</label><br>
+                            <input type="radio" id="optExcellent" name="optKnowledge" tabindex="16" value="Excellent" required>Excellent
+                            <input type="radio" id="optGood" name="optKnowledge" tabindex="18" value="Good">Good
+                            <input type="radio" id="optFair" name="optKnowledge" tabindex="20" value="Fair">Fair
+                            <input type="radio" id="optNotSatisfactory" name="optKnowledge" tabindex="22" value="NotSatisfactory">Not Satisfactory
+                        </li>
+                        <li>
+                        	<label><span class="redStar">*</span><strong><em>helpfulness</em></strong>?</label><br>
+                            <input type="radio" id="optExcellent" name="optHelpfulness" tabindex="24" value="Excellent" required>Excellent
+                            <input type="radio" id="optGood" name="optHelpfulness" tabindex="26" value="Good">Good
+                            <input type="radio" id="optFair" name="optHelpfulness" tabindex="28" value="Fair">Fair
+                            <input type="radio" id="optNotSatisfactory" name="optHelpfulness" tabindex="30" value="NotSatisfactory">Not Satisfactory
+                        </li>
+                        <li>
+                        	<label><span class="redStar">*</span><strong><em>courtesy and respect</em></strong> for all students?</label><br>
+                            <input type="radio" id="optExcellent" name="optCourtesy" tabindex="32" value="Excellent" required>Excellent
+                            <input type="radio" id="optGood" name="optCourtesy" tabindex="34" value="Good">Good
+                            <input type="radio" id="optFair" name="optCourtesy" tabindex="36" value="Fair">Fair
+                            <input type="radio" id="optNotSatisfactory" name="optCourtesy" tabindex="38" value="NotSatisfactory">Not Satisfactory
+                        </li>
+                        <li>
+                        	<label><span class="redStar">*</span><strong><em>communication</em></strong> skills?</label><br>
+                            <input type="radio" id="optExcellent" name="optCommunication" tabindex="40" value="Excellent" required>Excellent
+                            <input type="radio" id="optGood" name="optCommunication" tabindex="42" value="Good">Good
+                            <input type="radio" id="optFair" name="optCommunication" tabindex="44" value="Fair">Fair
+                            <input type="radio" id="optNotSatisfactory" name="optCommunication" tabindex="46" value="NotSatisfactory">Not Satisfactory
+                        </li>
+                        <li>
+                        	<label><span class="redStar">*</span>overall <strong><em>perfomance</em></strong>?</label><br>
+                            <input type="radio" id="optExcellent" name="optPerfomance" tabindex="48" value="Excellent" required>Excellent
+                            <input type="radio" id="optGood" name="optPerfomance" tabindex="50" value="Good">Good
+                            <input type="radio" id="optFair" name="optPerfomance" tabindex="52" value="Fair">Fair
+                            <input type="radio" id="optNotSatisfactory" name="optPerfomance" tabindex="54" value="NotSatisfactory">Not Satisfactory
+                        </li>
+                    </ol>
+                </fieldset>
+                <fieldset form="evaluation">
+                	<legend>Course</legend>
+                    <ol start="6">
+                    	<li>
+                        	<label><span class="redStar">*</span>How would your rate the <strong><em>course materials</em></strong>?</label><br>
+                            <input type="radio" id="optExcellent" name="optMaterials" tabindex="56" value="Excellent" required>Excellent
+                            <input type="radio" id="optGood" name="optMaterials" tabindex="58" value="Good">Good
+                            <input type="radio" id="optFair" name="optMaterials" tabindex="60" value="Fair">Fair
+                            <input type="radio" id="optNotSatisfactory" name="optMaterials" tabindex="62" value="NotSatisfactory">Not Satisfactory
+                        </li>
+                        <li>
+                        	<label><span class="redStar">*</span>How much did this course meet your <strong><em>expectations</em></strong>?</label><br>
+                            <input type="radio" id="optExcellent" name="optExpectations" tabindex="64" value="Excellent" required>Excellent
+                            <input type="radio" id="optGood" name="optExpectations" tabindex="66" value="Good">Good
+                            <input type="radio" id="optFair" name="optExpectations" tabindex="68" value="Fair">Fair
+                            <input type="radio" id="optNotSatisfactory" name="optExpectations" tabindex="70" value="NotSatisfactory">Not Satisfactory
+                        </li>
+                        <li>
+                        	<label><span class="redStar">*</span>How would you rate this course (<strong><em>overall</em></strong>)?</label><br>
+                            <input type="radio" id="optExcellent" name="optCourseOverall" tabindex="72" value="Excellent" required>Excellent
+                            <input type="radio" id="optGood" name="optCourseOverall" tabindex="74" value="Good">Good
+                            <input type="radio" id="optFair" name="optCourseOverall" tabindex="76" value="Fair">Fair
+                            <input type="radio" id="optNotSatisfactory" name="optCourseOverall" tabindex="78" value="NotSatisfactory">Not Satisfactory
+                        </li>
+                    </ol>
+                </fieldset>
+                <fieldset form="evaluation">
+                	<legend>General Inforamtion</legend>
+                    <ol start="9">
+                    	<li>
+                        	<label><span class="redStar">*</span>Was the <strong><em>course outline</em></strong> reviewed/explained at the beginning of your course?</label><br>
+                            <input type="radio" id="optYes" name="optCourseOutline" value="Yes" required>Yes
+                            <input type="radio" id="optNo" name="optCourseOutline" value="No">No
+                            <input type="radio" id="optNotSure" name="optCourseOutline" value="NotSure">Not Sure
+                        </li>
+                        <li>
+                        	<label><span class="redStar">*</span>Would you <strong><em>recommend</em></strong> to a friend with the same interests?</label><br>
+                            <input type="radio" id="optYes" name="optRecommend" value="Yes" required>Yes
+                            <input type="radio" id="optNo" name="optRecommend" value="No">No
+                            <input type="radio" id="optNotSure" name="optRecommend" value="NotSure">Not Sure
+                        </li>
+                    </ol>
+                </fieldset>
+                <fieldset form="evaluation">
+                	<legend>Any Other Comments</legend>
+                    <ol start="11">
+                    	<li>
+                        	<label for="txtrBestThing">What is the <strong><em>best thing</em></strong> about this course?</label><br>
+                            <textarea id="txtrBestThing" name="txtrBestThing" form="evaluation" cols="95" rows="7" placeholder="--Type your answer here--"></textarea>
+                        </li>
+                        <li>
+                        	<label for="txtrImproveCourse">How could we <strong><em>improve</em></strong> this course?</label><br>
+                            <textarea id="txtrImproveCourse" name="txtrImproveCourse" form="evaluation" cols="95" rows="7" placeholder="--Type your answer here--"></textarea>
+                        </li>
+                        <li>
+                        	<label for="txtrOther">Other:</label><br>
+                            <textarea id="txtrOther" name="txtrOther" form="evaluation" cols="95" rows="7" placeholder="--Type your answer here--"></textarea>
+                        </li>
+                    </ol>
+                </fieldset>
+			</form>
+                <div style="text-align:center">
+                	<button type="reset" form="evaluation"><img src="images/resetIcon.png" style="vertical-align:middle" width="16" height="16">Start Again</button>
+                	<button type="submit" form="evaluation"><img src="images/submitIcon.png" style="vertical-align:middle" width="16" height="16">Send Form</button>
+                </div>
+            <div class="centerAlign">
+            	<p><em>Thank you! We pay attention to your feedback!</em></p>
+            	<p><span style="margin-right: 20px;"><em>Web: <a href="https://www.centennialcollege.ca/programs-courses/schools/school-of-continuing-education/" target="_blank">www.centennialcollege.ca/continuing_education</a></em></span>
+                <span><em>Email: <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a></em></span></p>
+            </div>
+        </div>
+      	<div id="footer">
+        	<hr>
+      		<h6>&copy;&nbsp;Copyright Student Name: Liavontsi Brechka - Student #: 300800345 - COMP213 - Winter 2015</h6>
+            <hr>
+      	</div>
+    <div class="wrapper-b">&nbsp;</div>
+    <a href="#top"><div class="backToTop"><img src="images/back-to-top.png" width="60px" height="40px" alt="backToTop"></div></a>
+    </div>  
+</body>
+</html>

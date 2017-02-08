@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+p{
+	text-indent: 15px;
+	}
+ul{
+	list-style-image: url(../images/bullet.png);
+	}
+
+marquee{
+	font-size: 36px;
+	color: #4068BF;
+	margin: 10px 0;
+	font-style: oblique;
+	}
+
+#energyVideo{
+	float: left;
+	margin: 0 10px 0 0;
+	}
+	
+#firstMainPart{
+	margin: 0 0 40px 0;
+	height: 381px;
+	text-align: center;
+	}
+	
+#firstMainPart p{
+	margin: 10px 10px 30px 10px;
+	}
+
+#secondMainPart img{
+	margin: 0 10px;
+	float: right;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border: 2px solid #C6E28A;
+}
+
+#secondMainPart h3{
+	color: #4068BF;
+	font-style: oblique;
+	}
+	
+#thirdMainPart{
+	border-left: 10px ridge #C6E28A;
+	padding: 10px;
+	margin: 10px;
+	}
+
+#thirdMainPart img{
+	margin: 0 10px;
+	float: right;
+	border-radius: 20px;
+	border: 2px solid #C6E28A;
+}
+
+#thirdMainPart h3{
+	color: #4068BF;
+	font-style: oblique;
+	}
+	
+#fourthMainPart h3{
+	color: #4068BF;
+	font-style: oblique;
+	}
+#fourthMainPart{
+	text-align: center;
+	}
+
+#fourthMainPart ul{
+	list-style-type: none;
+	padding: 0;
+	}
+	
+#fourthMainPart ul li{
+	display: inline;
+	}
+	
+#references h3{
+	color: #4068BF;
+	font-style: oblique;
+	}
+
+#references ol li{
+	margin: 5px 0;
+	}
